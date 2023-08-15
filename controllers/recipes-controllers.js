@@ -6,7 +6,8 @@ const { validationResult } = require('express-validator')
 const HttpError = require('../models/http-error')
 
 const Recipe = require('../models/recipe')
-const User = require('../models/user');
+// const User = require('../models/user');
+const User = require('../models/User')
 const Comment = require('../models/comment');
 const Image = require('../models/image')
 
